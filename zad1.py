@@ -20,7 +20,7 @@ def countNumbers(x,y):
 
     #loop to print in file numbers, where sum of numbers is primary
     print("print values")
-    for i in range(int(x), int(y)):
+    for i in range(int(x), int(y)): 
         sum =0
         iLength =str(i)
         for j in range(0, (len(iLength))):
